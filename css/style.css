@@ -8,9 +8,12 @@ body{
     background-color: #fffbf0;
     height: 715px;
 }
+
+
 .top-text-color {
     color: #fabe4c;
   }
+
   #link-button {
     text-decoration: none;
     background-image: linear-gradient(180deg, #a4bc46 0%, #85a019 100%);

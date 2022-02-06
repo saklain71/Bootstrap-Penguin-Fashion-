@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/e8da33e135.js" crossorigin="anonymous"></script>
@@ -30,13 +31,26 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">product</a>
+                    <!-- <a class="nav-link active" aria-current="page" href="#product">product</a> -->
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                          product
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                          <li><a class="dropdown-item active" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                      </div>
+                
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                    <a class="nav-link active" aria-current="page" href="#about">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contacat Us</a>
+                    <a class="nav-link active" aria-current="page" href="#contact">Contacat Us</a>
                   </li> 
                 </ul>
               </div>
@@ -72,7 +86,7 @@
     <!-- main starts -->
     <main>
         
-        <section class="container ">
+        <section class="container" id="product">
             <h1 class="pt-5">WOMAN JACKET</h1>
             <div class="row d-flex justify-content-between gy-5 sm-ps-5">
                 <div id="box-item" class="col-lg-4 col-12">
